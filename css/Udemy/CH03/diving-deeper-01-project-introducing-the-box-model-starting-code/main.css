@@ -1,14 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 #product-overview {
   background: #ff1b68;
   padding: 20px;
-  border-style: solid;
+  /* border-style: solid;
   border-color: black;
-  border-width: 5px;
-  margin: 20px;
+  border-width: 5px; */
+  /* border: 5px solid black; */
+  /* margin: 20px; */
+  width: 100%;
+  height: 520px;
 }
 
 .section-title {
@@ -23,3 +31,13 @@ body {
 /* h1 {
     font-family: sans-serif;
 } */
+
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
