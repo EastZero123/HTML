@@ -14,16 +14,16 @@ a {
   margin: 10px;
 }
 
-.main-section {
-  height: 800px;
-  border: 1px solid #ccc;
-  padding: 16px;
+a:not(.active) {
+  color: blue;
 }
 
 a.active {
   color: #521751;
 }
 
-.highlighted {
-  border: 2px solid #fa923f;
+.main-section {
+  height: 800px;
+  border: 1px solid #ccc;
+  padding: 16px;
 }
