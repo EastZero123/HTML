@@ -211,8 +211,15 @@ main {
   outline: none;
 }
 
+.button[disabled] {
+  cursor: not-allowed;
+  border: #a1a1a1;
+  background: #ccc;
+  color: #a1a1a1;
+}
+
 .open {
-    display: block !important;
+  display: block !important;
 }
 
 @media (min-width: 40rem) {
