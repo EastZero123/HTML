@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 * {
   box-sizing: border-box;
 }
@@ -216,10 +220,10 @@ main {
   border: #a1a1a1;
   background: #ccc;
   color: #a1a1a1;
-}
+} 
 
 .open {
-  display: block !important;
+    display: block !important;
 }
 
 @media (min-width: 40rem) {
